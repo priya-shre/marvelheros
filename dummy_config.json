@@ -1,0 +1,13 @@
+{
+    "marvel": {
+      "public_key": "your_public_key",
+      "private_key": "your_private_key"
+    },
+    "bigquery": {
+      "csv_file_path": "marvel_characters.csv",
+      "project_id": "your_project_id",
+      "dataset_id": "your_dataset_id",
+      "table_id": "your_table_id"
+  }
+  }
+

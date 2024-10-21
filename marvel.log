@@ -1,0 +1,54 @@
+2024-10-21 01:37:59,580 - root - INFO - Starting Marvel Project
+2024-10-21 01:37:59,596 - root - INFO - Getting Characters data from Marvel
+2024-10-21 01:37:59,596 - root - INFO - Setting up the hash_result
+2024-10-21 01:38:07,547 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:38:07,557 - root - INFO - Setting up the hash_result
+2024-10-21 01:38:15,889 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:38:15,900 - root - INFO - Setting up the hash_result
+2024-10-21 01:38:24,800 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:38:24,822 - root - INFO - Setting up the hash_result
+2024-10-21 01:38:32,879 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:38:32,895 - root - INFO - Setting up the hash_result
+2024-10-21 01:38:41,071 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:38:41,083 - root - INFO - Setting up the hash_result
+2024-10-21 01:38:49,085 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:38:49,096 - root - INFO - Setting up the hash_result
+2024-10-21 01:38:57,029 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:38:57,053 - root - INFO - Setting up the hash_result
+2024-10-21 01:39:05,201 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:39:05,210 - root - INFO - Setting up the hash_result
+2024-10-21 01:39:13,236 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:39:13,253 - root - INFO - Setting up the hash_result
+2024-10-21 01:39:21,382 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:39:21,389 - root - INFO - Setting up the hash_result
+2024-10-21 01:39:29,652 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:39:29,658 - root - INFO - Setting up the hash_result
+2024-10-21 01:39:37,702 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:39:37,709 - root - INFO - Setting up the hash_result
+2024-10-21 01:39:45,764 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:39:45,772 - root - INFO - Setting up the hash_result
+2024-10-21 01:39:53,683 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:39:53,689 - root - INFO - Setting up the hash_result
+2024-10-21 01:40:01,757 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:40:01,765 - root - INFO - Setting up the hash_result
+2024-10-21 01:40:07,151 - root - INFO - check request response : <Response [200]>
+2024-10-21 01:40:08,531 - root - INFO - Character data has been saved to character_data.json.
+2024-10-21 01:40:08,532 - root - INFO - converting json to csv file
+2024-10-21 01:40:08,545 - root - INFO - Character data successfully written to marvel_characters.csv
+2024-10-21 01:40:08,559 - root - INFO - Data set downloaded successfully from Marvel
+2024-10-21 01:40:08,559 - root - INFO - Starting to upload Marvel data to BigQuery
+2024-10-21 01:40:11,447 - root - INFO - Updating csv to be ready for bigQuery upload
+2024-10-21 01:40:11,474 - root - INFO - Returning null value for year in place of unsual string
+2024-10-21 01:40:11,479 - root - INFO - Returning null value for year in place of unsual string
+2024-10-21 01:40:11,489 - root - INFO - Returning null value for year in place of unsual string
+2024-10-21 01:40:11,503 - root - INFO - Returning null value for year in place of unsual string
+2024-10-21 01:40:11,512 - root - INFO - Returning null value for year in place of unsual string
+2024-10-21 01:40:11,516 - root - INFO - Returning null value for year in place of unsual string
+2024-10-21 01:40:11,546 - root - INFO - Csv updated with valid values
+2024-10-21 01:40:11,546 - root - INFO - Pre-exisiting table found:  <bound method Client.get_table of <google.cloud.bigquery.client.Client object at 0x00000272048BB380>>
+2024-10-21 01:40:12,007 - root - INFO - Deleted Table <google.cloud.bigquery.table.TableListItem object at 0x0000027204960980>
+2024-10-21 01:40:12,008 - root - INFO - Pre exisiting Tables deleted
+2024-10-21 01:40:12,009 - root - INFO - Deleted pre-exisitng tables
+2024-10-21 01:40:12,010 - root - INFO - Starting to upload the csv to BigQuery
+2024-10-21 01:40:15,325 - root - INFO - Loaded 1564 rows into marvel_project:characters_data.
+2024-10-21 01:40:15,326 - root - INFO - Successfully uploaded data to BigQuery
