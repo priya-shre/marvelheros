@@ -9,13 +9,13 @@ def setup_logging():
 
     # Set up logging configuration
     logging.basicConfig(
-        level=logger_config['LOGGING_CONFIG']['level'],  # Set the logging level (INFO in this case)
-        format=logger_config['LOGGING_CONFIG']['format'],  # Specify the log message format
+        level=logger_config['LOGGING_CONFIG']['level'], 
+        format=logger_config['LOGGING_CONFIG']['format'],  
         handlers=[
-            logging.FileHandler(logger_config['LOGGING_CONFIG']['log_file']),  # Log to the specified file
-            logging.StreamHandler()  # Optionally, log to the console as well
+            logging.FileHandler(logger_config['LOGGING_CONFIG']['log_file']), 
+            logging.StreamHandler() log to the console as well
         ]
     )
-    logger = logging.getLogger()  # Get the logger object
+    logger = logging.getLogger() 
 
     return logger
