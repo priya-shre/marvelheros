@@ -1,5 +1,4 @@
 # marvel-project
-# marvel-project
 This project automates the process of collecting Marvel character data, transforming it into a structured format, and loading it into BigQuery for analysis. It is an end-to-end pipeline that can be reused or expanded for other datasets from Marvel or even other APIs.
 
 Pre- requisites:
